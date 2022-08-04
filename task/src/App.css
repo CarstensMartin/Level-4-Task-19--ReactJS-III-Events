@@ -1,0 +1,73 @@
+/*Style the elements*/
+h2{
+  color: blue;
+  font-size: 3em;
+  background: black;
+  border-radius: 20px;
+}
+h3{
+  text-decoration: underline;
+}
+
+/*Style the classes*/
+.headerH3{
+  font-family: Brush Script MT;
+}
+.gridHeader{
+  display: grid;
+  grid-auto-flow: column;
+  background: black;
+  text-align: center;
+  border-radius: 20px;
+}
+.gridHeaderLogoButtons{
+  display: grid;
+  grid-auto-flow: column;
+  background: black;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.allProductDisplay{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 10px;
+}
+.productDisplay{
+  background: gray;
+  text-align: center;
+  border-radius: 20px;
+}
+.legalDisplay{
+  background: gray;
+  text-align: justify;
+}
+.productPhoto{
+  height: 300px;
+}
+.menuButton{
+  border: 1px solid black;
+  cursor: pointer;
+  height: 150px;
+}
+.loginButtonDiv{
+  padding: 20px;
+  background: red;
+  align-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+.loginButton{
+  border-radius: 5px;
+  background: black;
+  color: lime;
+  font-size: 2em;
+  width: 50%;
+  cursor: pointer;
+}
+.welcomeBackDiv{
+  text-align: center;
+}
+.headerLogo{
+  height: 150px;
+}
